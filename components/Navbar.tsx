@@ -80,7 +80,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-3 bg-black">
+        <div className="md:hidden px-4 pb-4 space-y-3 bg-white/80 backdrop-blur-md">
           <Link
             href="/buyer"
             className="block text-dark hover:text-[#C8A96A] transition font-medium"
