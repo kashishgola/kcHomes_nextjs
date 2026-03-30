@@ -52,7 +52,7 @@ export default function Listing() {
           <p className="text-sm tracking-widest text-orange-500 uppercase">
             Exclusive
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mt-2">Our Listings</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mt-2 text-black">Our Listings</h2>
         </div>
 
         {/* GRID */}

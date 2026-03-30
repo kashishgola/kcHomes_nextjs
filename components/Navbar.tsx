@@ -29,7 +29,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/buyer"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-dark hover:text-[#C8A96A] transition font-medium text-black"
             >
               Buyer
             </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/seller"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-dark hover:text-[#C8A96A] transition font-medium text-black"
             >
               Seller
             </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/about"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-dark hover:text-[#C8A96A] transition font-medium text-black"
             >
               About Us
             </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/blog"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-dark hover:text-[#C8A96A] transition font-medium text-black"
             >
               Blog
             </Link>
@@ -62,7 +62,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/contact"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-dark hover:text-[#C8A96A] transition font-medium text-black"
             >
               Contact Us
             </Link>
@@ -83,31 +83,32 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-4 space-y-3 bg-white/80 backdrop-blur-md">
           <Link
             href="/buyer"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-dark hover:text-[#C8A96A] transition font-medium text-black"
           >
             Buyer
           </Link>
           <Link
             href="/seller"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-dark hover:text-[#C8A96A] transition font-medium text-black"
           >
             Seller
           </Link>
           <Link
             href="/about"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-dark hover:text-[#C8A96A] transition font-medium text-black"
           >
             About Us
           </Link>
           <Link
             href="/blog"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-dark hover:text-[#C8A96A] transition font-medium text-black"
           >
             Blog
           </Link>
           <Link
             href="/contact"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-dark hover:text-[#C8A96A] transition font-medium text-black
+            "
           >
             Contact Us
           </Link>

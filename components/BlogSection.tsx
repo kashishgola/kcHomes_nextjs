@@ -34,10 +34,10 @@ export default function BlogSection() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 md:px-12 lg:px-20 ">
         {/* HEADER */}
         <div className="mb-10">
-          <p className="text-sm uppercase tracking-widest text-orange-500">
+          <p className="text-sm uppercase tracking-widest text-orange-500 ">
             News
           </p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2 text-black">
             Our Blog
           </h2>
         </div>

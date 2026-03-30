@@ -6,7 +6,7 @@ export default function Path() {
       <div className="max-w-7xl mx-auto px-4 relative py-16 sm:px-6 md:px-12 lg:px-20 ">
       {/* TITLE */}
       <div className="text-center mb-10">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
           What’s your Path?
         </h2>
         <p className="text-gray-500 mt-3 text-sm sm:text-base">
