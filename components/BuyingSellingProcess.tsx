@@ -1,7 +1,20 @@
 "use client";
 import Image from "next/image";
 
-export default function BuyingProcess({ steps, title, subtitle }) {
+interface Step {
+  id: number | string;
+  img: string;
+  title: string;
+  desc: string;
+}
+
+interface BuyingProcessProps {
+  steps: Step[];
+  title: string;
+  subtitle?: string; // optional if needed
+}
+
+export default function BuyingProcess({ steps, title, subtitle }: BuyingProcessProps) {
   return (
     <section className="py-16 bg-gradient-to-br from-slate-50 to-slate-100">
       <div className="max-w-7xl mx-auto px-6">
@@ -10,7 +23,11 @@ export default function BuyingProcess({ steps, title, subtitle }) {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             {title}
           </h2>
-          <p className="mt-3 text-gray-600 max-w-xl mx-auto">{subtitle}</p>
+          {subtitle && (
+            <p className="mt-3 text-gray-600 max-w-xl mx-auto">
+              {subtitle}
+            </p>
+          )}
         </div>
 
         {/* Grid */}

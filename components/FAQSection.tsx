@@ -1,8 +1,19 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 
-export default function FAQSection({faqs, title, subtitle}) {
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface FAQSectionProps {
+  faqs: FAQItem[];
+  title: string;
+  subtitle?: string; // optional if needed
+}
+
+export default function FAQSection({ faqs, title, subtitle }: FAQSectionProps) {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   const toggleFAQ = (index: number) => {
@@ -16,11 +27,13 @@ export default function FAQSection({faqs, title, subtitle}) {
         <div className="text-center mb-12">
           <div className="w-12 h-[2px] bg-amber-400 mx-auto mb-4"></div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-           {title}
+            {title}
           </h2>
-          <p className="mt-3 text-gray-600">
-            {subtitle}
-          </p>
+          {subtitle && (
+            <p className="mt-3 text-gray-600">
+              {subtitle}
+            </p>
+          )}
         </div>
 
         {/* FAQ List */}
