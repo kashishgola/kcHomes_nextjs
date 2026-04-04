@@ -7,7 +7,7 @@ export default function AboutHero() {
     <section className="py-16 bg-slate-800">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
         
-        {/* LEFT IMAGE */}
+
         <div className="relative">
           <img
             src="/team/1.png" // replace
