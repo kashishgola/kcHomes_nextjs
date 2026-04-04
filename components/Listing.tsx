@@ -41,6 +41,26 @@ const properties = [
     image: "/listing/4.jpeg",
     status: "Coming Soon",
   },
+  {
+    id: 5,
+    title: "Townhouse For Sale",
+    price: "$210,000",
+    beds: 3,
+    baths: 2,
+    size: "150 ft²",
+    image: "/listing/2.webp",
+    status: "New Listing",
+  },
+  {
+    id: 6,
+    title: "Family House For Sale",
+    price: "$100,000",
+    beds: 2,
+    baths: 5,
+    size: "29000 ft²",
+    image: "/listing/3.webp",
+    status: "Under Contract",
+  },
 ];
 
 export default function Listing() {
@@ -52,7 +72,8 @@ export default function Listing() {
           <p className="text-sm tracking-widest text-orange-500 uppercase">
             Exclusive
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold mt-2 text-black">Our Listings</h2>
+          <h2 className="text-3xl md:text-4xl font-bold my-2 ">Featured Kansas City Listings</h2>
+          <p>Browse current homes for sale across the KC metro. Contact Rebeccah to schedule a showing or get more details.</p>
         </div>
 
         {/* GRID */}
@@ -61,7 +82,7 @@ export default function Listing() {
                       grid-cols-1 
                       sm:grid-cols-2 
                       lg:grid-cols-3 
-                      xl:grid-cols-4"
+                      "
         >
           {properties.map((item) => (
             <div
@@ -101,6 +122,8 @@ export default function Listing() {
                   <span className="font-bold text-lg">{item.price}</span>
                 </div>
               </div>
+
+              
             </div>
           ))}
         </div>

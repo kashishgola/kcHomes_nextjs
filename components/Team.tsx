@@ -33,7 +33,7 @@ export default function Team() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 md:px-12 lg:px-20">
         {/* Heading */}
         <div className="mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">Meet the Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 ">Meet the Team</h2>
           <p>
             At Key Homes KC we provide our clients with a highly organized and
             personalized real estate experience. Consistent communication and

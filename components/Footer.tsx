@@ -14,7 +14,7 @@ export default function Footer() {
               About KC Homes
             </h3>
 
-            <p className="text-sm text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed">
               KC Homes is a premier real estate team helping buyers and sellers
               across Kansas City. We specialize in delivering top-tier service,
               market expertise, and seamless real estate experiences.
@@ -26,33 +26,38 @@ export default function Footer() {
           {/* ✅ COLUMN 2: LINKS */}
           <div className="md:ms-5">
             <h3 className="text-lg font-semibold mb-4">
-              Important Links
+              Quick Links
             </h3>
 
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <Link href="/" className="hover:text-[#C8A96A] transition">
-                  Home
+                <Link href="/" className="hover:text-[#C8A96A] transition text-lg">
+                  - Home
                 </Link>
               </li>
               <li>
-                <Link href="/buyer" className="hover:text-[#C8A96A] transition">
-                  Buyer
+                <Link href="/buyer" className="hover:text-[#C8A96A] transition text-lg">
+                  - Buy a Home
                 </Link>
               </li>
               <li>
-                <Link href="/seller" className="hover:text-[#C8A96A] transition">
-                  Seller
+                <Link href="/seller" className="hover:text-[#C8A96A] transition text-lg">
+                  - Sell Your Home
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-[#C8A96A] transition">
-                  Blog
+                <Link href="/about" className="hover:text-[#C8A96A] transition text-lg">
+                  - About Rebeccah
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-[#C8A96A] transition">
-                  Contact Us
+                <Link href="/blog" className="hover:text-[#C8A96A] transition text-lg">
+                  - KC Real Estate Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-[#C8A96A] transition text-lg">
+                  - Contact Us
                 </Link>
               </li>
             </ul>
@@ -64,25 +69,28 @@ export default function Footer() {
               Contact Us
             </h3>
 
-            <ul className="space-y-3 text-sm text-gray-300">
-              <li>
-                📞 MO 64118 / 816-629-4494
-              </li>
-              <li>
-                📍 8320 N. Oak Trfy Ste. 223 KC
-              </li>
-              <li>
-                ✉️ rebecca@keyhomeskc.com
-              </li>
-            </ul>
+            <div className="mb-3">
+              <h4 className="text-orange-400">Free Consultation:</h4>
+              <Link href="tel:8166517894">- 816.651.7894</Link>
+            </div>
 
-            {/* CTA */}
-            <Link
-              href="/contact"
-              className="inline-block mt-4 bg-[#C8A96A] text-black px-4 py-2 rounded hover:bg-[#b89655] transition text-sm"
-            >
-              Get in Touch
-            </Link>
+            <div className="mb-3">
+              <h4 className="text-orange-400">Office:</h4>
+              <Link href="tel:8166517894">- 816-629-4494 x255</Link>
+            </div>
+
+            <div className="mb-3">
+              <h4 className="text-orange-400">Email:</h4>
+              <Link href="mailto:rebecca@keyhomeskc.com">- rebecca@keyhomeskc.com</Link>
+            </div>
+
+            <div className="mb-3">
+              <h4 className="text-orange-400">Location:</h4>
+              <Link href="mailto:rebecca@keyhomeskc.com">- 8320 N. Oak Trfy Ste. 223
+Kansas City, MO 64118</Link>
+            </div>
+
+            
           </div>
 
         </div>

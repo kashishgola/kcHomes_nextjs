@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import Team from "@/components/Team";
-import Listing from "@/components/Listing";
 import Review from "@/components/Review";
+import BuyingProcess from "@/components/BuyingSellingProcess";
+import SpecialBuyerPrograms from "@/components/SpecialBuyerPrograms";
+import FAQSection from "@/components/FAQSection";
+import { faqs } from "@/lib/buyerFaq";
+import { steps } from "@/lib/buyingProcessData";
+
+const stats = [
+  { img: "/icons/medal.png", label: "Local KC Expert" },
+  { img: "/icons/chat.png", label: "Always Communicating" },
+  { img: "/icons/early-access.png", label: "Full MLS Access" },
+  { img: "/icons/approaches.png", label: "No Pressure Approach" },
+];
 
 export default function BuyerPage() {
   return (
@@ -32,106 +42,61 @@ export default function BuyerPage() {
         </div>
       </section>
 
-      {/* 🔥 INTRO SECTION */}
-      <section className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 md:px-12 lg:px-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            {/* TEXT */}
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Buying Made Simple
-              </h2>
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6 grid  gap-12 items-center">
+          {/* LEFT CONTENT */}
+          <div>
+            <div className="w-12 h-[2px] bg-amber-400 mb-4"></div>
 
-              <p className="mt-4 text-gray-600">
-                We help you find the perfect home with expert guidance, market
-                insights, and a seamless buying experience. Whether you're a
-                first-time buyer or an experienced investor, we’ve got you
-                covered.
-              </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-snug">
+              Why Choose <span className="text-amber-500">Key Homes KC </span>{" "}
+              as Your Buyer's Agent?
+            </h2>
 
-              <ul className="mt-6 space-y-3 text-gray-700">
-                <li>✔ Access to exclusive listings</li>
-                <li>✔ Expert negotiation support</li>
-                <li>✔ Personalized property recommendations</li>
-                <li>✔ End-to-end buying assistance</li>
-              </ul>
+            <p className="mt-5 text-gray-600 leading-relaxed">
+              Buying a home is one of the largest financial decisions you'll
+              ever make. You deserve an agent who is 100% in your corner — not
+              just trying to close a deal. Rebeccah Graham and the Key Homes KC
+              team provide honest, expert guidance from your first search to
+              closing day and beyond.
+            </p>
+          </div>
 
-              <Link
-                href="/contact"
-                className="inline-block mt-6 bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition"
+          {/* RIGHT STATS (NEW DESIGN) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {stats.map((item, index) => (
+              <div
+                key={index}
+                className="group bg-gradient-to-br from-slate-50 to-white border border-gray-200 rounded-2xl p-6 text-center shadow-sm hover:shadow-xl transition duration-300"
               >
-                Get Started
-              </Link>
-            </div>
+                <div className="my-3 flex justify-center">
+                  <Image src={item.img} alt="icons" width={80} height={80} />
+                </div>
 
-            {/* IMAGE */}
-            <div className="relative w-full h-[300px] sm:h-[400px] rounded-xl overflow-hidden">
-              <Image
-                src="/listing/1.webp"
-                alt="Buyer"
-                fill
-                className="object-cover"
-              />
-            </div>
+                {/* Label */}
+                <p className="mt-2 text-sm text-gray-500 uppercase tracking-wide">
+                  {item.label}
+                </p>
+
+                {/* Bottom Accent */}
+                <div className="mt-4 w-6 h-[2px] bg-amber-400 mx-auto group-hover:w-12 transition-all duration-300"></div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 🔥 FEATURED PROPERTIES */}
-      <Listing />
-
-      {/* 🔥 HOW IT WORKS */}
-      {/* <section className="bg-gray-50">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 md:px-12 lg:px-20 ">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-orange-500">1</div>
-              <h3 className="mt-3 font-semibold text-lg">Search Property</h3>
-              <p className="text-gray-600 mt-2 text-sm">
-                Browse through our listings to find homes that match your needs.
-              </p>
-            </div>
-
-            <div>
-              <div className="text-3xl font-bold text-orange-500">2</div>
-              <h3 className="mt-3 font-semibold text-lg">Schedule Visit</h3>
-              <p className="text-gray-600 mt-2 text-sm">
-                Book a visit and explore properties in person with our agents.
-              </p>
-            </div>
-
-            <div>
-              <div className="text-3xl font-bold text-orange-500">3</div>
-              <h3 className="mt-3 font-semibold text-lg">Close the Deal</h3>
-              <p className="text-gray-600 mt-2 text-sm">
-                Finalize your purchase with expert guidance and support.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      <section className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 md:px-12 lg:px-20">
-          <div className="grid grid-cols-1 gap-10 items-center">
-            {/* IMAGE */}
-            <div className="rounded-xl flex justify-center items-center">
-              <Image
-                src="/website/buyerroadmap.png"
-                alt="Buyer"
-                width={1000} 
-                height={600} 
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Team />
+      <BuyingProcess
+        steps={steps}
+        title="The Key Homes KC Home Buying Process"
+        subtitle="We've helped 200+ families navigate this process. Here's exactly how it works."
+      />
+      <SpecialBuyerPrograms />
+      <FAQSection
+        faqs={faqs}
+        title="Buyer FAQ"
+        subtitle="Common questions from Kansas City home buyers."
+      />
       <Review />
     </main>
   );
