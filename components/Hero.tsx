@@ -30,6 +30,7 @@ export default function Hero() {
           buy and sell homes across the KC metro. Let's find yours.
         </p>
 
+<div className="flex flex-col justify-center sm:flex-row gap-3 sm:gap-4">
         <a
           href="/buyer"
           className=" bg-[#986E3A] px-6 py-3 text-sm tracking-widest text-white hover:bg-[#01304E] hover:text-white transition duration-300 me-3"
@@ -43,6 +44,7 @@ export default function Hero() {
         >
           I Want to Sell
         </a>
+        </div>
       </div>
     </section>
   );
