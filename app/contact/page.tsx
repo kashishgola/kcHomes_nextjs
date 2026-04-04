@@ -47,34 +47,34 @@ export default function ContactUs() {
               </p>
 
               <div className="mb-4 border-l-3 ps-3 border-blue-600">
-              <h4 className="text-orange-400">Free Consultation — Call or Text:</h4>
-              <Link href="tel:8166517894">- 816.651.7894</Link>
-            </div>
+                <h4 className="text-orange-400">Free Consultation — Call or Text:</h4>
+                <Link href="tel:8166517894">- 816.651.7894</Link>
+              </div>
 
-            <div className="mb-4 border-l-3 ps-3 border-rose-600">
-              <h4 className="text-orange-400">Office:</h4>
-              <Link href="tel:8166517894">- 816-629-4494 x255</Link>
-            </div>
+              <div className="mb-4 border-l-3 ps-3 border-rose-600">
+                <h4 className="text-orange-400">Office:</h4>
+                <Link href="tel:8166517894">- 816-629-4494 x255</Link>
+              </div>
 
-            <div className="mb-4 border-l-3 ps-3 border-indigo-600">
-              <h4 className="text-orange-400">Email:</h4>
-              <Link href="mailto:rebecca@keyhomeskc.com">- rebecca@keyhomeskc.com</Link>
-            </div>
+              <div className="mb-4 border-l-3 ps-3 border-indigo-600">
+                <h4 className="text-orange-400">Email:</h4>
+                <Link href="mailto:rebecca@keyhomeskc.com">- rebecca@keyhomeskc.com</Link>
+              </div>
 
-            <div className="mb-4 border-l-3 ps-3 border-red-600">
-              <h4 className="text-orange-400">Location:</h4>
-              <Link href="mailto:rebecca@keyhomeskc.com">- 8320 N. Oak Trfy Ste. 223
-Kansas City, MO 64118</Link>
-            </div>
+              <div className="mb-4 border-l-3 ps-3 border-red-600">
+                <h4 className="text-orange-400">Location:</h4>
+                <Link href="mailto:rebecca@keyhomeskc.com">- 8320 N. Oak Trfy Ste. 223
+                  Kansas City, MO 64118</Link>
+              </div>
 
-            <div className="mb-4 border-l-3 ps-3 border-mauve-600">
-              <h4 className="text-orange-400">Availability:</h4>
-              <p className="mb-0">Monday–Friday: 8am–7pm</p>
-              <p className="mb-0">Saturday: 9am–5pm</p>
-              <p className="mb-0">Sunday: By Appointment</p>
-            </div>
+              <div className="mb-4 border-l-3 ps-3 border-mauve-600">
+                <h4 className="text-orange-400">Availability:</h4>
+                <p className="mb-0">Monday–Friday: 8am–7pm</p>
+                <p className="mb-0">Saturday: 9am–5pm</p>
+                <p className="mb-0">Sunday: By Appointment</p>
+              </div>
 
-              
+
             </div>
 
             {/* RIGHT SIDE FORM */}
@@ -88,7 +88,7 @@ Kansas City, MO 64118</Link>
               </h3>
               <p>Fill out the form below and Rebeccah will respond within 24 hours.
 
-</p>
+              </p>
 
               <form className="space-y-3 sm:space-y-4 mt-5" >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -132,7 +132,7 @@ Kansas City, MO 64118</Link>
                   <option value="General Question">General Question</option>
                 </select>
 
-                <textarea rows="5" placeholder="Message" className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+                <textarea placeholder="Message" className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
 
                 <button
                   type="submit"
