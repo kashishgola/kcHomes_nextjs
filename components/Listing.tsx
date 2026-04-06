@@ -72,7 +72,7 @@ export default function Listing() {
           <p className="text-sm tracking-widest text-orange-500 uppercase">
             Exclusive
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold my-2 ">Featured Kansas City Listings</h2>
+          <h2 className="text-3xl md:text-4xl font-bold my-2 text-black">Featured Kansas City Listings</h2>
           <p>Browse current homes for sale across the KC metro. Contact Rebeccah to schedule a showing or get more details.</p>
         </div>
 

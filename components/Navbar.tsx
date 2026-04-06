@@ -8,7 +8,7 @@ export default function Navbar() {
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-md w-full">
+    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-sm shadow-md w-full">
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -29,7 +29,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/buyer"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-black hover:text-[#C8A96A] transition font-medium"
             >
               Buyer
             </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/seller"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-black hover:text-[#C8A96A] transition font-medium"
             >
               Seller
             </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/about"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-black hover:text-[#C8A96A] transition font-medium"
             >
               About Us
             </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/blog"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-black hover:text-[#C8A96A] transition font-medium"
             >
               Blog
             </Link>
@@ -62,7 +62,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/contact"
-              className="text-dark hover:text-[#C8A96A] transition font-medium"
+              className="text-black hover:text-[#C8A96A] transition font-medium"
             >
               Contact Us
             </Link>
@@ -71,7 +71,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-2xl text-dark"
+          className="md:hidden text-2xl text-black"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
@@ -83,31 +83,31 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-4 space-y-3 bg-white/80 backdrop-blur-md">
           <Link
             href="/buyer"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-black hover:text-[#C8A96A] transition font-medium"
           >
             Buyer
           </Link>
           <Link
             href="/seller"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-black hover:text-[#C8A96A] transition font-medium"
           >
             Seller
           </Link>
           <Link
             href="/about"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-black hover:text-[#C8A96A] transition font-medium"
           >
             About Us
           </Link>
           <Link
             href="/blog"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-black hover:text-[#C8A96A] transition font-medium"
           >
             Blog
           </Link>
           <Link
             href="/contact"
-            className="block text-dark hover:text-[#C8A96A] transition font-medium"
+            className="block text-black hover:text-[#C8A96A] transition font-medium"
           >
             Contact Us
           </Link>
