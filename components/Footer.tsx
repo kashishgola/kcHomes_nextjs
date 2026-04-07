@@ -10,7 +10,7 @@ export default function Footer() {
 
           {/* ✅ COLUMN 1: ABOUT */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">
+            <h3 className="text-lg font-semibold mb-4 text-white">
               About KC Homes
             </h3>
 
@@ -25,7 +25,7 @@ export default function Footer() {
 
           {/* ✅ COLUMN 2: LINKS */}
           <div className="md:ms-5">
-            <h3 className="text-lg font-semibold mb-4">
+            <h3 className="text-lg font-semibold mb-4 text-white">
               Quick Links
             </h3>
 
@@ -65,7 +65,7 @@ export default function Footer() {
 
           {/* ✅ COLUMN 3: CONTACT */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">
+            <h3 className="text-lg font-semibold mb-4 text-white">
               Contact Us
             </h3>
 

@@ -73,7 +73,7 @@ export default function Listing() {
             Exclusive
           </p>
           <h2 className="text-3xl md:text-4xl font-bold my-2 text-black">Featured Kansas City Listings</h2>
-          <p>Browse current homes for sale across the KC metro. Contact Rebeccah to schedule a showing or get more details.</p>
+          <p className="text-black">Browse current homes for sale across the KC metro. Contact Rebeccah to schedule a showing or get more details.</p>
         </div>
 
         {/* GRID */}
@@ -112,14 +112,14 @@ export default function Listing() {
 
               {/* CONTENT */}
               <div className="p-4">
-                <h3 className="font-semibold text-lg">{item.title}</h3>
+                <h3 className="font-semibold text-lg text-black">{item.title}</h3>
 
                 <p className="text-sm text-gray-500 mt-1">
                   {item.beds} Beds • {item.baths} Baths • Size {item.size}
                 </p>
 
                 <div className="flex justify-between items-center mt-4">
-                  <span className="font-bold text-lg">{item.price}</span>
+                  <span className="font-bold text-lg text-black">{item.price}</span>
                 </div>
               </div>
 

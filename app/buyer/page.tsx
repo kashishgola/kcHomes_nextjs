@@ -28,7 +28,7 @@ export default function BuyerPage() {
         <div className="absolute inset-0 bg-[rgba(29,41,62,0.6)]" />
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Find Your Dream Home
           </h1>
 

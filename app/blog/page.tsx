@@ -30,7 +30,7 @@ export default function BlogSection() {
           <p className="text-sm uppercase tracking-widest text-orange-500">
             News
           </p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2 text-black">
             Our Blogs
           </h2>
         </div>
@@ -82,7 +82,7 @@ export default function BlogSection() {
                   <span>{blog.readTime}</span>
                 </div>
 
-                <h3 className="font-semibold text-lg mt-2 line-clamp-2">
+                <h3 className="font-semibold text-lg mt-2 line-clamp-2 text-black">
                   {blog.title}
                 </h3>
 

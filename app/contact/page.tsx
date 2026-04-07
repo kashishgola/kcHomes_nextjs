@@ -20,7 +20,7 @@ export default function ContactUs() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             Contact Us
           </h1>
 
@@ -39,7 +39,7 @@ export default function ContactUs() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
             {/* LEFT SIDE */}
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold">Get in Touch</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-black">Get in Touch</h2>
 
               <p className="text-gray-600 max-w-md">
                 Have questions or want to work with us? Reach out and our team
@@ -83,10 +83,10 @@ export default function ContactUs() {
                           bg-white rounded-xl shadow-xl 
                           p-4 sm:p-6 md:p-8"
             >
-              <h3 className="text-2xl font-semibold mb-1 text-start">
+              <h3 className="text-2xl font-semibold mb-1 text-start text-black">
                 Send a Message
               </h3>
-              <p>Fill out the form below and Rebeccah will respond within 24 hours.
+              <p className="text-black">Fill out the form below and Rebeccah will respond within 24 hours.
 
               </p>
 

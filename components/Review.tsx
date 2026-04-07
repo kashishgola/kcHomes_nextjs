@@ -42,7 +42,7 @@ export default function Review() {
       <div className="max-w-7xl mx-auto px-4 py-8 pb-16 sm:px-6 md:px-12 lg:px-20 ">
         {/* HEADER */}
         <div className="mb-10">
-          <p className="text-2xl">
+          <p className="text-2xl text-black">
             Working with the right real estate agent can make a huge difference.
             If you (or someone you know) is looking to buy or sell, we'd welcome
             the opportunity to explain the advantages we offer.

@@ -41,7 +41,7 @@ export default async function BlogDetails({
             {blog.category}
           </span>
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold max-w-3xl">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold max-w-3xl text-white">
             {blog.title}
           </h1>
 
@@ -117,7 +117,7 @@ export default async function BlogDetails({
 
           {/* 🔥 RIGHT SIDEBAR */}
           <div className="lg:sticky lg:top-24 self-start">
-            <h3 className="text-xl font-semibold mb-5">Recent Posts</h3>
+            <h3 className="text-xl font-semibold mb-5 text-black">Recent Posts</h3>
 
             <div className="space-y-5">
               {relatedPosts.map((post) => (
@@ -138,7 +138,7 @@ export default async function BlogDetails({
                   <div>
                     <p className="text-xs text-gray-500">{post.date}</p>
 
-                    <h4 className="text-sm font-medium group-hover:text-orange-500 transition line-clamp-2">
+                    <h4 className="text-black text-sm font-medium group-hover:text-orange-500 transition line-clamp-2">
                       {post.title}
                     </h4>
                   </div>

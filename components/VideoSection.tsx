@@ -10,7 +10,7 @@ export default function VideoSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           {/* LEFT CONTENT */}
           <div className="text-center lg:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug text-black">
               Discover KC with Rebecca on American Dream TV
             </h2>
 

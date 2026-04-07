@@ -32,7 +32,7 @@ export default function CoreValues() {
         {/* Heading */}
         <div className="text-center mb-16">
           <div className="w-12 h-[2px] bg-amber-400 mx-auto mb-4"></div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-primary)]">
+          <h2 className="text-3xl md:text-4xl font-bold text-black">
             Our Core Values
           </h2>
         </div>
@@ -51,7 +51,7 @@ export default function CoreValues() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-[var(--color-primary)] group-hover:text-amber-500 transition">
+                <h3 className="text-lg font-semibold text-black group-hover:text-amber-500 transition">
                   {item.title}
                 </h3>
 

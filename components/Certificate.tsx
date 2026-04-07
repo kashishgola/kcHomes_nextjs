@@ -5,7 +5,7 @@ export default function Certificate() {
     <section className="bg-white">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 md:px-12 lg:px-20">
         <div>
-          <p className="text-3xl font-semibold">
+          <p className="text-3xl font-semibold text-black">
             We are certified in several fields to service all your real estate
             needs.
           </p>

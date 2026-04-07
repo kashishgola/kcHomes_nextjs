@@ -17,8 +17,8 @@ export default function AboutHero() {
 
           {/* Badge */}
           <div className="absolute bottom-6 left-6 bg-amber-400 text-black px-5 py-3 rounded-xl shadow-md">
-            <p className="text-lg font-bold">15+</p>
-            <p className="text-xs uppercase">Years in KC</p>
+            <p className="text-lg font-bold text-black">15+</p>
+            <p className="text-xs uppercase text-black">Years in KC</p>
           </div>
         </div>
 
