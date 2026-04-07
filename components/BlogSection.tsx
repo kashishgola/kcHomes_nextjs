@@ -18,7 +18,7 @@ export default function HomeBlogSection() {
             <p className="text-sm uppercase tracking-widest text-orange-500">
               News
             </p>
-            <h2 className="text-3xl sm:text-4xl font-bold mt-2  text-blackq">
+            <h2 className="text-3xl sm:text-4xl font-bold mt-2  text-black">
               Latest Blogs
             </h2>
           </div>
