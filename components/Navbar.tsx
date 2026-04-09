@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/" className="inline-block">
             <Image
-              src="/logo2.png"
+              src="/logo/keyhomesnewlogo.jpg"
               alt="logo"
               width={120}
               height={50}
