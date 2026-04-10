@@ -26,7 +26,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl mb-8 opacity-90 max-w-sm max-w-md lg:max-w-2xl mx-auto text-center">
-          Rebeccah Graham and the Key Homes KC team have helped 200+ families
+          Rebecca Graham and the Key Homes KC team have helped 200+ families
           buy and sell homes across the KC metro. Let's find yours.
         </p>
 
