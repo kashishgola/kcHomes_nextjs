@@ -11,8 +11,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Welcome to Key Homes KC",
-  description: "Kansas City's elite Real Estate Team is here to answer your questions. The best thing you can do RIGHT NOW is start the conversation. We can't wait to talk with you.",
+  title: "Key Homes KC | Kansas City Real Estate Experts for Buyers & Sellers",
+  description: "Looking to buy or sell a home in Kansas City? Key Homes KC offers expert guidance, neighborhood insights, and a seamless real estate experience. Contact us today!",
+  keywords: [
+    "Kansas City real estate",            
+    "Kansas City homes for sale",        
+    "KC real estate agent",              
+    "buy a home in Kansas City",         
+    "sell my home Kansas City",          
+    "Kansas City neighborhoods",          
+  ],
 };
 
 export default function RootLayout({
