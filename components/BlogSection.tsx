@@ -69,7 +69,7 @@ export default function HomeBlogSection() {
                 </p>
 
                 <Link
-                  href={`/blog/${blog.id}`}
+                  href={`/blog/${blog.slug}`}
                   className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-black hover:text-orange-500 transition"
                 >
                   Continue reading →
